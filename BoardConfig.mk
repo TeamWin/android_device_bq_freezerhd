@@ -27,7 +27,7 @@ TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 
 # Kernel
 TARGET_PREBUILT_KERNEL := device/bq/freezerhd/kernel
-BOARD_MKBOOTIMG_ARGS := --pagesize 2048 --cmdline bootopt=64S3,32N2,64N2 --base 0x40078000 --kernel_offset 0x00008000 --ramdisk_offset 0x03f88000 --second_offset 0x00e88000 --tags_offset 0x0df88000
+BOARD_MKBOOTIMG_ARGS := --pagesize 2048 --cmdline bootopt=64S3,32N2,64N2 --base 0x40078000 --kernel_offset 0x00008000 --ramdisk_offset 0x14f88000 --second_offset 0x00e88000 --tags_offset 0x13f88000
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x1000000
